@@ -7,6 +7,22 @@
 */
 
 // Start Coding Here
+function add(a,b){
+    return a + b;
+}
+function subtract(a , b){
+    return a - b;
+}
+function multiply(a , b){
+    return a * b;
+}
+function divide(a , b){
+    return a / b;
+}
+
+function calculate(num1,num2,math){
+    return math(num1,num2);
+}
 
 
 // เมื่อ function นี้ทำงานจะเห็นผลลัพธ์ดังนี้
